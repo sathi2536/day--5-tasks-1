@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<style>
+.row{
+    border: 1px solid black;
+    background-color: rgb(223, 223, 223);
+    /* margin-top: 200px; */
+    height: 600px; 
+    
+      
+}
+.title-name,.seats{
+    justify-content: center;
+    display: flex;  
+    
+}
+img{
+    display: flex;
+    height: 400px;
+    margin-top: 70px;
+    margin-left: 90px;
+}
+.box{
+    width: 1200px;
+}
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+</style>
+<body>
+    <div class="container-fluid ">
+    <div class="box">
+        <div class="title-name"><b>Event-1</b> </div>
+        <div class="seats">Number Of Avaliable Seats:23</div>
+         <div class="row">
+            <div class="col-md-6"><img src="https://cdn-icons-png.flaticon.com/512/6681/6681204.png" alt=""></div>
+            <div class="col-md-6"><br>
+                <div class="form-floating mb-3">
+                    <input type="name" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Name</label>
+                  </div>
+                  <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Email">
+                    <label for="floatingPassword">Email</label>
+                  </div>
+                  <BR>
+                  <div class="form-floating mb-3">
+                    <input type="Phone No" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Phone No</label>
+                  </div>
+                  
+                  <div class="form-floating">
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                      <option selected></option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                    </select>
+                    <label for="floatingSelect">No of selects</label>
+                  </div>
+                  <BR>
+                  <div class="form-floating">
+                    <input type="No Of Attendee" class="form-control" id="floatingPassword" placeholder="No Of Attendee">
+                    <label for="floatingPassword">No Of Attendee</label>
+                  </div><br><br>
+                  <button type="button" class="btn btn-primary">Submit</button>
+                  <button type="button" class="btn btn-primary">Cancle</button>
+                  
+            </div>
+         </div>
+    </div>
+    </div>
+</body>
+</html>
